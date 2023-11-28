@@ -1,82 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&family=Style+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&family=Style+Script&display=swap");
 
 /* Reset some default styles */
-body, h1, p {
-    margin: 0;
-    padding: 0;
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
 }
 
 /* Global Styles */
 body {
-    font-family: 'Roboto Slab', serif;
-    line-height: 1.6;
+  font-family: "Roboto Slab", serif;
+  line-height: 1.6;
 }
-
 
 html,
 body {
   background-color: #f4eeff;
 }
 
-section{
-    background-color: #DCD6F7;
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+section {
+  background-color: #dcd6f7;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .intro {
-    color: #424874;
-    text-align: center;
+  color: #424874;
+  text-align: center;
 }
 
 .pro {
-    text-decoration: underline solid;
+  text-decoration: underline solid;
 }
 h1 {
-    font-size: 6rem;
-    font-family: 'Style Script', cursive;
-    margin-top: -30vh;
+  font-size: 6rem;
+  font-family: "Style Script", cursive;
+  margin-top: -30vh;
 }
 
 #programmer {
-    font-size: 2.5rem;
-    padding: 0 10px;
+  font-size: 2.5rem;
+  padding: 0 10px;
 }
 
 img {
-    height: 180px;
-    border-radius: 50%;
+  height: 180px;
+  border-radius: 50%;
 }
 
 nav {
-    background-color: #333;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
- 
- nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
- }
- 
- nav ul li {
-    float: left;
-    
- }
- 
- nav ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
- }
- 
- nav ul li a:hover {
+  background-color: #333;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+@media (hover: hover) {
+  nav ul li a:hover {
     background-color: #111;
- }
+  }
+}

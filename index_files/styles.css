@@ -10,7 +10,7 @@ p {
 
 /* Global Styles */
 body {
-  font-family: "Roboto Slab", serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.6;
 }
 
@@ -51,7 +51,7 @@ img {
   border-radius: 50%;
 }
 
-nav {
+/* nav {
   background-color: #dcd6f7;
   overflow: hidden;
   display: flex;
@@ -81,4 +81,4 @@ nav ul li a {
   nav ul li a:hover {
     background-color: #424874;
   }
-}
+} */

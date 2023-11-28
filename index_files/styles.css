@@ -38,7 +38,7 @@ section {
 h1 {
   font-size: 6rem;
   font-family: "Style Script", cursive;
-  margin-top: -30vh;
+  margin-top: -33vh;
 }
 
 #programmer {
@@ -51,6 +51,17 @@ img {
   border-radius: 50%;
 }
 
+.nature {
+  background: #dcd6f7 url(./scene.jpg) center center/cover no-repeat content-box
+    local;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fade {
+    background: linear-gradient(0deg, #dcd6f7 0%, #9C8CC0 100%);
+}
 /* nav {
   background-color: #dcd6f7;
   overflow: hidden;

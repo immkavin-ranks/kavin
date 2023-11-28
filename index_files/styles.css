@@ -52,7 +52,7 @@ img {
 }
 
 nav {
-  background-color: #333;
+  background-color: #dcd6f7;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -71,7 +71,7 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  color: white;
+  color: #A6B1E1;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -79,6 +79,6 @@ nav ul li a {
 
 @media (hover: hover) {
   nav ul li a:hover {
-    background-color: #111;
+    background-color: #424874;
   }
 }

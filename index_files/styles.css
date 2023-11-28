@@ -18,23 +18,34 @@ body {
   background-color: #f4eeff;
 }
 
-.intro {
+section {
     background-color: #DCD6F7;
-    color: #424874;
     display: flex;
-    height: 71vh;
+    height: 100vh;
     justify-content: center;
     align-items: center;
+}
+
+.intro {
+    color: #424874;
+    text-align: center;
 }
 
 .pro {
     text-decoration: underline solid;
 }
 h1 {
-    font-size: 5rem;
+    font-size: 6rem;
     font-family: 'Style Script', cursive;
+    margin-top: -30vh;
 }
 
 #programmer {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    padding: 0 10px;
+}
+
+img {
+    height: 180px;
+    border-radius: 50%;
 }

@@ -14,13 +14,17 @@ body {
   line-height: 1.6;
 }
 
-html,
-body {
+html {
   background-color: #f4eeff;
 }
 
-section {
+body {
   background-color: #dcd6f7;
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+section {
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -60,9 +64,9 @@ img {
 }
 
 .fade {
-    background: linear-gradient(0deg, #7072D7 0%, #dcd6f7 100%);
+  background: linear-gradient(0deg, #6765be 0%, #dcd6f7 100%);
 }
-/* nav {
+nav {
   background-color: #dcd6f7;
   overflow: hidden;
   display: flex;
@@ -82,7 +86,7 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  color: #A6B1E1;
+  color: #a6b1e1;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -92,4 +96,4 @@ nav ul li a {
   nav ul li a:hover {
     background-color: #424874;
   }
-} */
+}

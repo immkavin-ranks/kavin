@@ -336,7 +336,7 @@ footer {
 }
 
 footer p {
-  font-size: .8rem;
+  font-size: 0.8rem;
   margin-top: 10px;
 }
 
@@ -347,5 +347,5 @@ footer a {
 }
 
 footer a:hover {
-  color:#f4eeff;
+  color: #f4eeff;
 }

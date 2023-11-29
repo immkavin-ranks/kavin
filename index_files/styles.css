@@ -37,7 +37,7 @@ section {
 }
 
 h1,
-h2{
+h2 {
   color: #424874;
 }
 
@@ -118,25 +118,40 @@ nav ul li a {
   }
 }
 
-.resume-container {
+.container {
   width: 35%;
   text-align: center;
 }
 
+.wide {
+  width: 50%;
+}
+
+#paragraph > p {
+  text-indent: 3em;
+  text-align: justify;
+}
+
 @media (max-width: 1082px) {
-  .resume-container {
+  .container {
     width: 50%;
+  }
+  .wide {
+    width: 70%;
   }
 }
 
 @media (max-width: 992px) {
-  .resume-container {
+  .container {
     width: 60%;
+  }
+  .wide {
+    width: 75%;
   }
 }
 
 @media (max-width: 768px) {
-  .resume-container {
+  .container {
     width: 80%;
   }
 }
@@ -161,18 +176,18 @@ nav ul li a {
   outline: none;
 }
 
-.custom-btn.resume-btn {
+.custom-btn.btn {
   margin: 20px;
   text-decoration: none;
   color: #dcd6f7;
 }
 
-.resume-btn {
+.btn {
   background: #424874;
   border: none;
   z-index: 1;
 }
-.resume-btn:after {
+.btn:after {
   position: absolute;
   content: "";
   width: 0;
@@ -186,14 +201,14 @@ nav ul li a {
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
-.resume-btn:hover {
+.btn:hover {
   color: #424874;
 }
-.resume-btn:hover:after {
+.btn:hover:after {
   left: 0;
   width: 100%;
 }
-.resume-btn:active {
+.btn:active {
   top: 2px;
 }
 
@@ -237,16 +252,14 @@ hr {
   margin: 0 10px;
 }
 
-
 h3 > a {
   text-decoration: underline;
   color: #f4eeff;
   font-size: 1.2rem;
 }
 
-
 @media (hover: hover) {
-  h3 > a:hover{
+  h3 > a:hover {
     color: #424874;
     background-color: #f4eeff;
     padding: 10px;
@@ -263,8 +276,6 @@ h3 > a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
   }
   .col-3 {
     max-width: 60%;
@@ -292,4 +303,49 @@ h3 > a {
   .col-3 {
     max-width: 80%;
   }
+}
+#paragraph > #sign {
+  text-align: left;
+  text-indent: 0;
+}
+
+#paragraph {
+  margin-bottom: 30px;
+}
+
+.contact {
+  height: 130vh;
+}
+
+.contact > .container > p {
+  color: #f4eeff;
+}
+
+.contact > .container > .custom-btn {
+  box-shadow: 7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  height: 33vh;
+  background-color: #424874;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer p {
+  font-size: .8rem;
+  margin-top: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #a6b1e1;
+  margin: 10px;
+}
+
+footer a:hover {
+  color:#f4eeff;
 }

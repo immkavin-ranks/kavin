@@ -239,7 +239,7 @@ hr {
 
 
 h3 > a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #f4eeff;
   font-size: 1.2rem;
 }
@@ -251,6 +251,7 @@ h3 > a {
     background-color: #f4eeff;
     padding: 10px;
     border-radius: 8px;
+    text-decoration: none;
   }
 }
 

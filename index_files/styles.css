@@ -314,17 +314,28 @@ h3 > a {
 }
 
 .contact {
-  height: 130vh;
+  height: 100vh;
+}
+
+.contact > .container {
+  padding-top: 100px;
 }
 
 .contact > .container > p {
   color: #f4eeff;
 }
 
+@media (max-height: 540px) {
+  .contact > .container > p {
+    display: none;
+  } 
+}
+
 .contact > .container > .custom-btn {
   box-shadow: 7px 7px 20px 0px rgba(0, 0, 0, 0.1),
     4px 4px 5px 0px rgba(0, 0, 0, 0.1);
-}
+  margin-bottom: 100px;
+  }
 
 footer {
   height: 33vh;

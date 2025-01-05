@@ -169,7 +169,11 @@
           rel="noopener noreferrer"
           >Youtube</a
         >
-        <p>&copy; 2024 Kavin. All rights reserved.</p>
+        <p>&copy; 
+          <span id="copyright">
+            <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+          </span>
+          Kavin. All rights reserved.</p>
       </div>
     </footer>
   </body>
